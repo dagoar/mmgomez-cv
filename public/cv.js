@@ -103,7 +103,7 @@ var tools_en = [
     company: "Open Source",
     name: "Node.JS",
     lvl: "SemiSr",
-    years: "2+",
+    years: "3+",
     brief: true,
   },
   { id: 15, company: "", name: "PHP", lvl: "SemiSr", years: "3+", brief: false },
@@ -111,6 +111,21 @@ var tools_en = [
 ];
 
 var xps_en = [
+  {
+    company: "Solution Box Argentina",
+    business: "value-added wholesale distributor",
+    relationship: "Employee",
+    location: "Barracas",
+    init: "2021-05",
+    end: "...",
+    role: "Senior Software Engineer",
+    brief: true,
+    tasks: [
+    { task: "Delphi: ERP upgrade and maintenance" },
+      { task: "NodeJS: Marketplaces (VTEX, Aper) Integration using REST API" },
+      { task: "MySQL: query optimization" },
+    ],
+  },
   {
     company: "PROSEGUR",
     business: "Cash Transportation",
