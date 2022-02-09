@@ -241,13 +241,13 @@ var xps_en = [
     tasks: [
     {
         task:
-          "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real time",
+          "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
       },
       { task: "Design and development of medical laser interfaces" },
       { task: "PIC C, VB 6.0, C#, C++ development" },
       {
         task:
-          "Intranet implementation – incremental backup, mail, wiki and source control servers",
+          "Intranet implementation – incremental backup, mail, wiki, and source control servers",
       },
     ],
   },
@@ -271,7 +271,7 @@ var xps_en = [
       },
       {
         task:
-          "Infrastructure migration to free software: mail, proxy, VPN, firewall, domain controller, file server, backup and SVN",
+          "Infrastructure migration to free software: mail, proxy, VPN, firewall, domain controller, file server, backup, and SVN",
       },
       { task: "Intranet implementation: wiki, bugtracker & CRM" },
       { task: "Delphi, COBOL, MS SQL Server y PostgreSQL development" },
@@ -311,9 +311,9 @@ var xps_en = [
       { task: "Online construction costs calculator" },
       {
         task:
-          "Intranet implementation: file server, SQL server, proxy, firewall + trafficshaping",
+          "Intranet implementation: file server, SQL server, proxy, firewall + traffic-shaping",
       },
-      { task: "Delphi, PHP, MySQL, PostgreSQL developmen" },
+      { task: "Delphi, PHP, MySQL, PostgreSQL development" },
     ],
   },
   {
@@ -348,7 +348,7 @@ var xps_en = [
     tasks: [
     {
         task:
-          "Design and development of tablet manufacturing system for the pharmaceutical industry with captureand analysis of images in real time",
+          "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
       },
     ],
   },
@@ -366,7 +366,7 @@ var xps_en = [
         task:
           "Online applications design and development: NavCash, MP3Sherlock, FullZero dialer, Instant Messaging system",
       },
-      { task: "Cross platform servers for all of our products" },
+      { task: "Cross-platform servers for all of our products" },
       {
         task: "Flash applications development for the government [educ.ar]",
       },
@@ -439,7 +439,7 @@ var xps_en = [
     { task: "NT & Silicon Graphics network administrator" },
       { task: "Maya & 3DStudio MAX plugin development" },
       { task: "Flash web pages development" },
-      { task: "Project: OpenGL real time virtual TV host" },
+      { task: "Project: OpenGL real-time virtual TV host" },
     ],
   },
   {
@@ -458,7 +458,7 @@ var xps_en = [
       },
       { task: "Windows 95 & Winsock Instant Messenger development" },
       { task: "TAPI, Voice Recognition, DirectX y OpenGL research" },
-      { task: "Virtual Shopping 3D Engine (FPS, BSP trees) real time" },
+      { task: "Virtual Shopping 3D Engine (FPS, BSP trees) real-time" },
     ],
   },
   {
@@ -472,7 +472,7 @@ var xps_en = [
     brief: false,
     tasks: [
     {
-        task: "RFG digitizing system development (retinofluoresceinography)",
+        task: "RFG digitizing system development (Fluorescein angiography)",
       },
       {
         task: "Corneal topography system for rigid contact lens design",
