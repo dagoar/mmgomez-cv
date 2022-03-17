@@ -112,12 +112,27 @@ var tools_en = [
 
 var xps_en = [
   {
+    company: "Distillery",
+    business: "Software Development Company",
+    relationship: "Contractor",
+    location: "",
+    init: "2022-03",
+    end: "...",
+    role: "NodeJS Engineer",
+    brief: true,
+    tasks: [
+      { task: "NodeJS: TypeScript development" },
+      { task: "NodeJS: ETL chain creation"},
+      { task: "PosgreSQL: database design, query optimization" },
+    ],
+  },
+  {
     company: "Solution Box Argentina",
     business: "value-added wholesale distributor",
     relationship: "Employee",
     location: "Barracas",
     init: "2021-05",
-    end: "...",
+    end: "2022-03",
     role: "Senior Software Engineer",
     brief: true,
     tasks: [
