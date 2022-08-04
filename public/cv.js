@@ -117,7 +117,7 @@ var xps_en = [
     relationship: "Contractor",
     location: "",
     init: "2022-03",
-    end: "...",
+    end: "2022-07",
     role: "NodeJS Engineer",
     brief: true,
     tasks: [
