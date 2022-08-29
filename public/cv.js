@@ -122,7 +122,7 @@ var xps_en = [
     brief: true,
     tasks: [
       { task: "NodeJS: TypeScript development" },
-      { task: "NodeJS: ETL chain creation"},
+      { task: "NodeJS: ETL chain creation" },
       { task: "PosgreSQL: database design, query optimization" },
     ],
   },
@@ -136,7 +136,7 @@ var xps_en = [
     role: "Senior Software Engineer",
     brief: true,
     tasks: [
-    { task: "Delphi: ERP upgrade and maintenance" },
+      { task: "Delphi: ERP upgrade and maintenance" },
       { task: "NodeJS: Marketplaces (VTEX, Aper) Integration using REST API" },
       { task: "MySQL: query optimization" },
     ],
@@ -151,7 +151,7 @@ var xps_en = [
     role: "Senior Developer",
     brief: true,
     tasks: [
-    { task: "Full Stack development in C# using .NET 4.5 and .NET core" },
+      { task: "Full Stack development in C# using .NET 4.5 and .NET core" },
       { task: "REST APIs and SOAP WebServices development" },
       { task: "Oracle SQL query optimization" },
     ],
@@ -166,10 +166,11 @@ var xps_en = [
     role: "Senior Developer",
     brief: false,
     tasks: [
-    {
-        task:
-          "Full Stack development in Java, Python, Scala, Node.JS, Angular.JS",
-      },
+      { task: "Full Stack development in Java, Python, Scala, Node.JS, Angular.JS" },
+      { task: "NodeJS: TyeScript and MongoDB development" },
+      { task: "Python: ETL chain creation" },
+      { task: "MySQL: database design, query optimization" },
+      { task: "Scala: cloud development with Google BigQuery" },
     ],
   },
   {
@@ -182,7 +183,7 @@ var xps_en = [
     role: "Software Architect / Senior Developer",
     brief: false,
     tasks: [
-    { task: "Software migration from VB6 to 64bit dotNet" },
+      { task: "Software migration from VB6 to 64bit dotNet" },
       { task: "Embedded C++ development for microcontrollers" },
     ],
   },
@@ -196,7 +197,7 @@ var xps_en = [
     role: "Senior Developer",
     brief: true,
     tasks: [
-    { task: "In-house framework maintenance in C# and Java" },
+      { task: "In-house framework maintenance in C# and Java" },
       { task: "3rd party API integration." },
       { task: "Load testing automation with Jenkins." },
       {
@@ -214,7 +215,7 @@ var xps_en = [
     role: "Developer / Web Hosting admin / CTO",
     brief: true,
     tasks: [
-    {
+      {
         task:
           "Design and development of online communities software for Twitter",
       },
@@ -238,7 +239,7 @@ var xps_en = [
     role: "Senior Developer",
     brief: false,
     tasks: [
-    { task: "Financial software maintenance in VB6" },
+      { task: "Financial software maintenance in VB6" },
       {
         task: "MS-SQL & Oracle Stored Procedures development & maintenance",
       },
@@ -254,7 +255,7 @@ var xps_en = [
     role: "Software Architect / Developer / Network Administrator",
     brief: true,
     tasks: [
-    {
+      {
         task:
           "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
       },
@@ -276,7 +277,7 @@ var xps_en = [
     role: "Developer / CBDO",
     brief: true,
     tasks: [
-    {
+      {
         task:
           "Development of WMS and Traceability solutions for the pharmaceutical industry",
       },
@@ -302,7 +303,7 @@ var xps_en = [
     role: "Delphi Developer",
     brief: false,
     tasks: [
-    { task: "In-house ORM maintenance" },
+      { task: "In-house ORM maintenance" },
       { task: "Development of new modules and reports. Bug fixing" },
       {
         task:
@@ -320,7 +321,7 @@ var xps_en = [
     role: "Architect / Delphi & PHP Developer / Network administrator",
     brief: false,
     tasks: [
-    {
+      {
         task: "Design and development of management and work progress system",
       },
       { task: "Online construction costs calculator" },
@@ -341,7 +342,7 @@ var xps_en = [
     role: "Delphi – Clipper developer / Network administrator",
     brief: false,
     tasks: [
-    {
+      {
         task: "DOS (Clipper) to Windows (Delphi 3-tier) software migration",
       },
       { task: "NT4 domain to Windows 2000 ActiveDirectory migration" },
@@ -361,7 +362,7 @@ var xps_en = [
     role: "Developer / Project Leader",
     brief: false,
     tasks: [
-    {
+      {
         task:
           "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
       },
@@ -377,7 +378,7 @@ var xps_en = [
     role: "Network administrator / Project Leader / Delphi developer",
     brief: false,
     tasks: [
-    {
+      {
         task:
           "Online applications design and development: NavCash, MP3Sherlock, FullZero dialer, Instant Messaging system",
       },
@@ -418,7 +419,7 @@ var xps_en = [
     role: "Delphi developer/ Project Leader / Network administrator",
     brief: false,
     tasks: [
-    {
+      {
         task: "Delphi + SQL Server applications design and development",
       },
       { task: "Customs MARIA system bulk data importer" },
@@ -436,7 +437,7 @@ var xps_en = [
     role: "Delphi - Macromedia Director developer",
     brief: false,
     tasks: [
-    { task: "Institucional CD-ROM development" },
+      { task: "Institucional CD-ROM development" },
       { task: "Web Site development" },
       { task: "Corporate intranet implementation" },
     ],
@@ -451,7 +452,7 @@ var xps_en = [
     role: "Developer / Network Administrator",
     brief: false,
     tasks: [
-    { task: "NT & Silicon Graphics network administrator" },
+      { task: "NT & Silicon Graphics network administrator" },
       { task: "Maya & 3DStudio MAX plugin development" },
       { task: "Flash web pages development" },
       { task: "Project: OpenGL real-time virtual TV host" },
@@ -467,7 +468,7 @@ var xps_en = [
     role: "CTO / Delphi developer / R&D Director",
     brief: false,
     tasks: [
-    {
+      {
         task:
           "Multimedia self-service stand development, deployed at Spinetto Shopping Center, Nine Center& COTO C.I.C.S.A (Suc. Sarandí)",
       },
@@ -486,7 +487,7 @@ var xps_en = [
     role: "BASIC, C, Turbo Pascal developer / Project leader",
     brief: false,
     tasks: [
-    {
+      {
         task: "RFG digitizing system development (Fluorescein angiography)",
       },
       {
