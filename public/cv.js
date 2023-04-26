@@ -103,11 +103,12 @@ const tools_en = [
     company: "Open Source",
     name: "Node.JS",
     lvl: "SemiSr",
-    years: "3+",
+    years: "4+",
     brief: true,
   },
   { id: 15, company: "", name: "PHP", lvl: "SemiSr", years: "3+", brief: false },
   { id: 16, company: "", name: "Python", lvl: "Junior", years: "1", brief: false },
+  { id: 17, company: "Amazon", name: "AWS", lvl: "Junior", years: "1", brief: true },
 ];
 
 const xps_en = [
