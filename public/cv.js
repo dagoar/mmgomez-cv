@@ -1,5 +1,5 @@
 // data
-var tools_en = [
+const tools_en = [
   {
     id: 0,
     company: "Microsoft",
@@ -110,7 +110,22 @@ var tools_en = [
   { id: 16, company: "", name: "Python", lvl: "Junior", years: "1", brief: false },
 ];
 
-var xps_en = [
+const xps_en = [
+  {
+    company: "GoJiraf",
+    business: "Live Shopping",
+    relationship: "Contractor",
+    location: "",
+    init: "2022-11",
+    end: "2023-04",
+    role: "Full Stack Engineer",
+    brief: true,
+    tasks: [
+      { task: "NodeJS: NestJS and Loopback development" },
+      { task: "React: Front End development" },
+      { task: "AWS: Lambdas development with S3 integration" },
+    ],
+  },
   {
     company: "Distillery",
     business: "Software Development Company",
