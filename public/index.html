@@ -140,7 +140,7 @@
           </div>
           <div class="col-1">&nbsp;</div>
         </div>
-        <div v-for="xp in xps">
+        <div style="break-inside: avoid;" v-for="xp in xps">
           <div v-show="xp.brief || xpbrief" class="row text-white bg-secondary">
             <div class="col-6 font-weight-bold">{{ xp.company }}</div>
             <div class="col-3">{{ xp.location }}</div>
