@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="print.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="https://unpkg.com/vue-i18n@8"></script>
     <script src="https://kit.fontawesome.com/8c2dea56b3.js" crossorigin="anonymous"></script>
   </head>
 
@@ -27,12 +28,12 @@
     <div class="container" id="cv">
       <div class="container py-3">
         <div class="row font-weight-bold text-white bg-primary">
-          Personal Information
+          Informacion Personal
         </div>
         <div class="row">
           <div class="col-9">
             <div class="row">
-              <div class="col-4">Name</div>
+              <div class="col-4">Nombre</div>
               <div class="col-8">Martín Miguel Gómez</div>
             </div>
             <div class="row">
@@ -48,27 +49,27 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-4">Updated CV</div>
+              <div class="col-4">CV actualizado</div>
               <div class="col-8">
                 <a href="https://mmgomez-cv.web.app"><i class="fas fa-link"></i> mmgomez-cv.web.app</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-4">Schedule a meeting</div>
+              <div class="col-4">Programar una reunión</div>
               <div class="col-8">
                 <a href="https://cal.com/mmgomez"><i class="fas fa-calendar"></i> cal.com/mmgomez</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-4">Cell Phone</div>
+              <div class="col-4">Celular</div>
               <div class="col-8">+54 11 6804 9927</div>
             </div>
             <div class="row">
-              <div class="col-4">Languages</div>
+              <div class="col-4">Idiomas</div>
               <div class="col-8">
                 <div class="container">
-                  <div class="row">English:&nbsp;<a href="ESL_language_test-English-2022-07-07-21821.pdf"><i class="fas fa-paperclip"></i> B2 - Upper Intermediate</a></div>
-                  <div class="row">Spanish: Native</div>
+                  <div class="row">Inglés:&nbsp;<a href="ESL_language_test-English-2022-07-07-21821.pdf"><i class="fas fa-paperclip"></i> B2 - Upper Intermediate</a></div>
+                  <div class="row">Español: Nativo</div>
                 </div>
               </div>
             </div>
@@ -81,11 +82,10 @@
         </div>
       </div>
       <div class="container py-3">
-        <div class="row font-weight-bold text-white bg-primary">Goals</div>
+        <div class="row font-weight-bold text-white bg-primary">Objetivos</div>
         <div class="row">
           <div class="col">
-            I want to advance my career by constantly training myself and doing
-            my best in every task that is assigned to me.
+            Deseo avanzar en mi carrera capacitándome de forma constante y dando lo mejor de mí en las tareas que se me asignen.
           </div>
         </div>
       </div>
@@ -93,30 +93,30 @@
         <div class="row font-weight-bold text-white bg-primary">About Me</div>
         <div class="row">
           <div class="col">
-            I am self-taught. I crave knowledge, learning new technologies is an exciting challenge. I do enjoy problem-solving. As an experienced teacher, it is easy for me to pass my knowledge to others. At an intellectual and professional level, I am qualified to respond to any requirement that may arise. On a personal level, I am a charismatic person with pleasant treatment, who enjoys a good working environment.
+            Soy autodidacta. Me fascina el conocimiento, aprender nuevas tecnologías es un reto apasionante. Disfruto resolviendo problemas. Como profesor experimentado, me resulta fácil transmitir mis conocimientos a los demás. A nivel intelectual y profesional estoy capacitado para dar respuesta a cualquier requerimiento que se presente. A nivel personal soy una persona carismática de trato agradable, que disfruta de un buen ambiente de trabajo.
           </div>
         </div>
       </div>
       <div class="container py-3">
         <div class="row justify-content-between font-weight-bold text-white bg-primary">
-          <div class="col-6">Technical Knowledge</div>
+          <div class="col-6">Conocimientos técnicos</div>
           <div class="col-2">
             <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
               <label class="btn btn-secondary btn-sm active">
-                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kbrief" v-bind:value="false" /> Brief
+                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kbrief" v-bind:value="false" /> Resumido
               </label>
               <label class="btn btn-secondary btn-sm">
-                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kdetail" v-bind:value="true" /> Detailed
+                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kdetail" v-bind:value="true" /> Detallado
               </label>
             </div>
           </div>
           <div class="col-1">&nbsp;</div>
         </div>
         <div class="row font-weight-bold text-white bg-secondary row-cols-4">
-          <div class="col-3">Company</div>
+          <div class="col-3">Empresa</div>
           <div class="col-xs-6 col-sm-6">Tool</div>
-          <div class="col-2">Level</div>
-          <div class="col-1">Years</div>
+          <div class="col-2">Nivel</div>
+          <div class="col-1">Años</div>
         </div>
         <knowledge-item
           v-for="tool in tools"
@@ -127,14 +127,14 @@
       </div>
       <div class="container py-3">
         <div class="row justify-content-between font-weight-bold text-white bg-primary">
-          <div class="col-6">Work Experience</div>
+          <div class="col-6">Experiencia Laboral</div>
           <div class="col-2">
             <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
               <label class="btn btn-secondary btn-sm active">
-                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpbrief" v-bind:value="false" /> Brief
+                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpbrief" v-bind:value="false" /> Resumido
               </label>
               <label class="btn btn-secondary btn-sm">
-                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpdetail" v-bind:value="true" /> Detailed
+                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpdetail" v-bind:value="true" /> Detallado
               </label>
             </div>
           </div>
