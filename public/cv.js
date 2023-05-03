@@ -942,8 +942,95 @@ const xps_es = [
   },
 ];
 
+// i18n
+const messages = {
+  es: {
+    msg: {
+      personalInfo: 'Información Personal',
+      name: 'Nombre',
+      cv: 'CV actualizado',
+      calendar: 'Programar una reunión',
+      cellPhone: 'Celular',
+      langs: 'Idiomas',
+      langENG: 'Inglés:',
+      langSPA: 'Español: Nativo',
+      goalTitle: 'Objetivos',
+      goal: 'Deseo avanzar en mi carrera capacitándome de forma constante y dando lo mejor de mí en las tareas que se me asignen.',
+      aboutTitle: 'Acerca de mi',
+      about: 'Soy autodidacta. Me fascina el conocimiento, aprender nuevas tecnologías es un reto apasionante. Disfruto resolviendo problemas. Como profesor experimentado, me resulta fácil transmitir mis conocimientos a los demás. A nivel intelectual y profesional estoy capacitado para dar respuesta a cualquier requerimiento que se presente. A nivel personal soy una persona carismática de trato agradable, que disfruta de un buen ambiente de trabajo.',
+      briefButton: 'Resumido',
+      detailButton: 'Detallado',
+      techKnowledgeTitle: 'Conocimientos Técnicos',
+      techKnowledgeLabels: { 
+        company: 'Empresa',
+        tool: 'Herramienta',
+        level: 'Nivel',
+        years: 'Años'
+      },
+      tools: tools_en,
+      xpTitle: 'Experiencia Laboral',
+      xps: xps_es
+    }
+  },
+  en: {
+    msg: {
+      personalInfo: 'Personal Information',
+      name: 'Name',
+      cv: 'Updated CV',
+      calendar: 'Schedule a meeting',
+      cellPhone: 'Cell Phone',
+      langs: 'Languages',
+      langENG: 'English:',
+      langSPA: 'Spanish: Native',
+      goalTitle: 'Goals',
+      goal: 'I want to advance my career by constantly training myself and doing my best in every task that is assigned to me.',
+      aboutTitle: 'About me',
+      about: 'I am self-taught. I crave knowledge, learning new technologies is an exciting challenge. I do enjoy problem-solving. As an experienced teacher, it is easy for me to pass my knowledge to others. At an intellectual and professional level, I am qualified to respond to any requirement that may arise. On a personal level, I am a charismatic person with pleasant treatment, who enjoys a good working environment.',
+      briefButton: 'Brief',
+      detailButton: 'Detailed',
+      techKnowledgeTitle: 'Technical Knowledge',
+      techKnowledgeLabels: { 
+        company: 'Company',
+        tool: 'Tool',
+        level: 'Level',
+        years: 'Years'
+      },
+      tools: tools_en,
+      xpTitle: 'Work Experience',
+      xps: xps_en
+    }
+  }
+}
+
+// vue app
+
+const i18n = VueI18n.createI18n({
+  locale: 'en', 
+  fallbackLocale: 'es', 
+  messages, 
+})
+
+const { createApp } = Vue
+
+var app = createApp({
+  data() {
+    return {
+    toolsbrief: false,
+    xpbrief: false,
+    locale: 'en',
+  }},
+  methods: {
+    changeLocale(val) {
+      this.$i18n.locale = val
+      this.locale = val
+    }
+  }
+});
+
+app.use(i18n)
+
 // vue components
-Vue.component('knowledge-item', {
+app.component('knowledge-item', {
   props: ['tool', 'pbrief'],
   template: `
     <div v-show="tool.brief || pbrief" class="row row-cols-4 py-1">
@@ -953,15 +1040,6 @@ Vue.component('knowledge-item', {
       <div class="col-1 text-center">{{ tool.years }}</div>
     </div>
     `,
-})
-
-// vue app
-var app = new Vue({
-  el: '#cv',
-  data: {
-    toolsbrief: false,
-    xpbrief: false,
-    tools: tools_en,
-    xps: xps_es,
-  },
 });
+
+app.mount('#cv');
