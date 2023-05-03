@@ -118,7 +118,7 @@ const xps_en = [
     relationship: "Contractor",
     location: "",
     init: "2022-11",
-    end: "2023-04",
+    end: "2023-05",
     role: "Full Stack Engineer",
     brief: true,
     tasks: [
@@ -183,7 +183,7 @@ const xps_en = [
     brief: false,
     tasks: [
       { task: "Full Stack development in Java, Python, Scala, Node.JS, Angular.JS" },
-      { task: "NodeJS: TyeScript and MongoDB development" },
+      { task: "NodeJS: TypeScript and MongoDB development" },
       { task: "Python: ETL chain creation" },
       { task: "MySQL: database design, query optimization" },
       { task: "Scala: cloud development with Google BigQuery" },
@@ -524,8 +524,513 @@ const xps_en = [
   },
 ];
 
+const xps_es = [
+  {
+    company: "GoJiraf",
+    business: "Live Shopping",
+    relationship: "Contractor",
+    location: "",
+    init: "2022-11",
+    end: "2023-05",
+    role: "Desarrollador Full Stack",
+    brief: true,
+    tasks: [
+      { task: "NodeJS: desarrollo con NestJS y Loopback" },
+      { task: "React: desarrollo Front End" },
+      { task: "AWS: Lambdas con integración con S3" },
+    ],
+  },
+  {
+    company: "Distillery",
+    business: "Software Factory",
+    relationship: "Contractor",
+    location: "",
+    init: "2022-03",
+    end: "2022-07",
+    role: "Desarrollador NodeJS ",
+    brief: true,
+    tasks: [
+      { task: "NodeJS: desarrollo TypeScript con NestJS" },
+      { task: "NodeJS: creación de flujo ETL" },
+      { task: "PosgreSQL: diseño de base de datos y optimización de consultas" },
+    ],
+  },
+  {
+    company: "Solution Box Argentina",
+    business: "Mayorista de partes de PC",
+    relationship: "Empleado",
+    location: "Barracas",
+    init: "2021-05",
+    end: "2022-03",
+    role: "Desarrollador Senior",
+    brief: true,
+    tasks: [
+      { task: "Delphi: actualización y mantenimiendo de ERP" },
+      { task: "NodeJS: Integracion de tiendas (VTEX, Aper) usando API REST" },
+      { task: "MySQL: optimización de consultas" },
+    ],
+  },
+  {
+    company: "PROSEGUR",
+    business: "Transporte de Caudales",
+    relationship: "Empleado",
+    location: "Vicente Lopez",
+    init: "2020-01",
+    end: "2021-01",
+    role: "Senior Desarrollador",
+    brief: true,
+    tasks: [
+      { task: "desarrollo Full Stack en C# usando .NET 4.5 y .NET core" },
+      { task: "desarrollo de servicios API REST y SOAP" },
+      { task: "optimización de consultas en Oracle SQL" },
+    ],
+  },
+  {
+    company: "Patagonian IT",
+    business: "Software Factory",
+    relationship: "Contractor",
+    location: "Gral Roca",
+    init: "2019-02",
+    end: "2019-08",
+    role: "Desarrollador Senior",
+    brief: false,
+    tasks: [
+      { task: "Desarrollo Full Stack en Java, Python, Scala, Node.JS, Angular.JS" },
+      { task: "NodeJS: desarrollo TypeScript con MongoDB " },
+      { task: "Python: creacion de flujo ETL" },
+      { task: "MySQL: diseño de base de datos y optimización de consultas" },
+      { task: "Scala: desarrollo cloud con Google BigQuery" },
+    ],
+  },
+  {
+    company: "LaserSystems",
+    business: "Soluciones industriales con laser y automatización",
+    relationship: "Freelance",
+    location: "Vicente Lopez",
+    init: "2018-07",
+    end: "2019-02",
+    role: "Desarrollador Senior / Arquitecto de Software",
+    brief: false,
+    tasks: [
+      { task: "Migración de software de VB6 a .NET 64bit" },
+      { task: "desarrollo en C++ para microcontroladores" },
+    ],
+  },
+  {
+    company: "BEESION",
+    business: "Low Code Telecom Solutions",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "2016-10",
+    end: "2018-07",
+    role: "Desarrollador Senior",
+    brief: true,
+    tasks: [
+      { task: "Mantenimiento de framework propio en C# y Java" },
+      { task: "Integración con API de terceros" },
+      { task: "Automatización de test de carga con Jenkins." },
+      {
+        task: "NodeJS: Automatización de builds remotos con Apache Cordova",
+      },
+    ],
+  },
+  {
+    company: "Data & Tendencias",
+    business: "Consultora de Redes Sociales",
+    relationship: "Freelance",
+    location: "CABA",
+    init: "2014-06",
+    end: "2016-10",
+    role: "Desarrollador / Administrador de Web Hosting / CTO",
+    brief: true,
+    tasks: [
+      {
+        task:
+          "Diseño y desarrollo de comunidades online para Twitter",
+      },
+      {
+        task:
+          "Administración de red de sitios de noticias",
+      },
+      {
+        task:
+          "Desarrollo de plugins para WordPress",
+      },
+
+      { task: "Desarrollo PHP, JavaScript & MySQL" },
+      {
+        task: "Administración de servidores Linux : Load balancer, Hosting LAMP, DNS",
+      },
+    ],
+  },
+  {
+    company: "Team Quality",
+    business: "Procesamiento de consumos de tarjetas de credito",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "2015-08",
+    end: "2016-09",
+    role: "Desarrollador Senior",
+    brief: false,
+    tasks: [
+      { task: "Mentenimiento de software financiero en VB6" },
+      {
+        task: "Desarrollo y mantenimiento de Stored Procedures en MS-SQL y Oracle",
+      },
+    ],
+  },
+  {
+    company: "LaserSystems",
+    business: "Soluciones industriales con laser y automatización",
+    relationship: "Empleado",
+    location: "Vicente Lopez",
+    init: "2008-05",
+    end: "2015-08",
+    role: "Desarrollador Senior / Arquitecto de Software / Administrador de redes",
+    brief: true,
+    tasks: [
+      {
+        task:
+          "Diseño y desarrollo de un sistema para la manufactura de medicamentos con captura de imágenes y análisis en tiempo real"
+      },
+      { task: "Diseño y desarrollo de interfases para laser medicinales" },
+      { task: "Desarrollo en PIC C, VB 6.0, C# y C++" },
+      {
+        task:
+          "Implementación de Intranet : backups incrementales, mail, wiki, y control de versiones",
+      },
+    ],
+  },
+  {
+    company: "FOBESA SA",
+    business: "Sistemas de ",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "2006-12",
+    end: "2008-04",
+    role: "Desarrollador / CBDO",
+    brief: true,
+    tasks: [
+      {
+        task:
+          "Desarrollo de soluciones WMS y Trazabilidad para la industria farmacéutica",
+      },
+      {
+        task:
+          "Desarrollo de interfases entre sistemas COBOL y Delphi: Impresora de cheques, Impresoras fiscales Hasar y EPSON, WebServices, Trazabilidad con firmado de paquetes SSL",
+      },
+      {
+        task:
+          "Migración de infraestructura hacia software libre: mail, proxy, VPN, firewall, controlador de dominio, file server, backup, y SVN",
+      },
+      { task: "Implementacion de Intranet: wiki, bugtracker y CRM" },
+      { task: "Desarrollos en Delphi, COBOL, MS SQL Server y PostgreSQL" },
+    ],
+  },
+  {
+    company: "IMS SA",
+    business: "Software ERP",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "2006-06",
+    end: "2006-09",
+    role: "Desarrollador Delphi",
+    brief: false,
+    tasks: [
+      { task: "Mantenimiento de ORM interno" },
+      { task: "Desarrollo de nuevos módulos y reportes. Solución de errores." },
+      {
+        task:
+          "Desarrollo con Delphi y MS SQL Server, Oracle, PostgreSQL & Firebird",
+      },
+    ],
+  },
+  {
+    company: "Coop de Trabajo “Renacer”",
+    business: "Empresa constructora",
+    relationship: "Empleado",
+    location: "Hurlingham",
+    init: "2004",
+    end: "2006",
+    role: "Arquitecto / Desarrollador Delphi & PHP / administrador de redes",
+    brief: false,
+    tasks: [
+      {
+        task: "Diseño y desarrollo de sistema de control de obra.",
+      },
+      { task: "Calculadora de costo de obra online" },
+      {
+        task:
+          "Implementación de Intranet: file server, SQL server, proxy, firewall + traffic-shaping",
+      },
+      { task: "Desarrollo con Delphi, PHP, MySQL y PostgreSQL" },
+    ],
+  },
+  {
+    company: "Grisbill SA",
+    business: "Fábrica de sabores y perfumes",
+    relationship: "Freelance",
+    location: "Vicente Lopez",
+    init: "2002",
+    end: "2004",
+    role: "Desarrollador Delphi y Clipper / Administrador de redes",
+    brief: false,
+    tasks: [
+      {
+        task: "Migración de software DOS (Clipper) a Windows (Delphi 3-tier)",
+      },
+      { task: "Migración de dominio NT4 a Windows 2000 ActiveDirectory" },
+      {
+        task:
+          "Implementación de VPN y VoIP con la planta de Brasil, usando software libre",
+      },
+    ],
+  },
+  {
+    company: "LaserSystems",
+    business: "Soluciones industriales con laser y automatización",
+    relationship: "Empleado",
+    location: "Vicente Lopez",
+    init: "2001",
+    end: "2002",
+    role: "Desarrollador / Project Leader",
+    brief: false,
+    tasks: [
+      {
+        task:
+        "Diseño y desarrollo de un sistema para la manufactura de medicamentos con captura de imágenes y análisis en tiempo real",
+      },
+    ],
+  },
+  {
+    company: "Microprot SA",
+    business: "Internet Development",
+    relationship: "Dueño",
+    location: "CABA",
+    init: "2000",
+    end: "2002",
+    role: "Network administrator / Project Leader / Delphi desarrollador",
+    brief: false,
+    tasks: [
+      {
+        task:
+          "Diseño y desarrollo de productos online: NavCash, MP3Sherlock, discador FullZero, sistema de mensajería instantánea",
+      },
+      { task: "Servidores Cross-platform para todos nuestros productos" },
+      {
+        task: "Desarrollo de aplicaciones Flash para el estado [educ.ar]",
+      },
+      { task: "desarrollo Delphi, GCC, MySQL y PostgreSQL." },
+    ],
+  },
+  {
+    company: "SINC SRL",
+    business: "Consultoría de Software",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "1999",
+    end: "2000",
+    role: " Desarrollador BASIC - Delphi / Soporte Novell Netware",
+    brief: false,
+    tasks: [
+      { task: "Migración de sistemas QB / Btrieve a <Y2K ready>." },
+      {
+        task: "Administración y soporte de redes Novell Netware de clientes",
+      },
+      {
+        task:
+          "Migración de sistemas DOS (QB/Btrieve) a Windows (Delphi/PervasiveSQL)",
+      },
+    ],
+  },
+  {
+    company: "Advanced Stead Information",
+    business: "Consultoría de Comercio Exterior",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "1997",
+    end: "1998",
+    role: "Desarrollador Delphi / Lider de Proyecto / Administrador de redes",
+    brief: false,
+    tasks: [
+      {
+        task: "Diseño y desarrollo de aplicaciones Delphi + SQL Server",
+      },
+      { task: "Importación de datos del sistema de Aduanas MARIA" },
+      { task: "Administración de dominio NT4" },
+      { task: "Soporte técnico a clientes" },
+    ],
+  },
+  {
+    company: "Producciones Digitales SH",
+    business: "Consultoría de Imagen – Estudio Multimedia",
+    relationship: "Freelance",
+    location: "CABA",
+    init: "1995",
+    end: "1999",
+    role: "Desarrollador Delphi - Macromedia Director",
+    brief: false,
+    tasks: [
+      { task: "Desarrollo de CD-ROM institucionales" },
+      { task: "Desarrollo de sitios web" },
+      { task: "Implementación de Intranets corporativas" },
+    ],
+  },
+  {
+    company: "AICON SRL",
+    business: "Estudio de diseño 3D y postproducción",
+    relationship: "Freelance",
+    location: "CABA",
+    init: "1996",
+    end: "1999",
+    role: "Desarrollador / Administrador de redes",
+    brief: false,
+    tasks: [
+      { task: "Administrador de redes NT y SGI (Silicon Graphics)" },
+      { task: "Desarrollo de plugins para Maya y 3DStudio MAX" },
+      { task: "Desarrollo de páginas web Flash" },
+      { task: "Proyecto: Animadora de programas de TV virtual con OpenGL en real-time" },
+    ],
+  },
+  {
+    company: "PUBLIRED Multimedia SA",
+    business: "Consultoría de Publicidad y Multimedia",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "1995",
+    end: "1997",
+    role: "CTO / Desarrollador Delphi / Director de R&D",
+    brief: false,
+    tasks: [
+      {
+        task:
+          "Desarrollo de puesto de autoconsulta, instalado en Spinetto Shopping Center, Nine Center y COTO C.I.C.S.A (Suc. Sarandí)",
+      },
+      { task: "Desarrollo de Mensajería Instantánea en Windows 95 con Winsock" },
+      { task: "Investigación de TAPI, Voice Recognition, DirectX y OpenGL" },
+      { task: "Motor 3D para paseo virtual por Shopping (FPS, árboles BSP)" },
+    ],
+  },
+  {
+    company: "DIGIOFTALMO SA",
+    business: "Productos de Oftalmologia",
+    relationship: "Empleado",
+    location: "CABA",
+    init: "1991",
+    end: "1995",
+    role: "Desarrollador BASIC, C, Turbo Pascal / Lider de Proyecto",
+    brief: false,
+    tasks: [
+      {
+        task: "Desarrollo de sistema de digitalización de RFG (Angiografía con Fluorescencia)",
+      },
+      {
+        task: "Desarrollo de sistema de topografía de cornea para diseño de lentes de contacto rígidas",
+      },
+    ],
+  },
+  {
+    company: "IAC - Instituto Argentino de Computación",
+    business: "Educación IT",
+    relationship: "Empleado",
+    location: "San Justo",
+    init: "1991",
+    end: "1991",
+    role: "Profesor",
+    brief: false,
+    tasks: [{ task: "Profesor de BASIC / BASIC Avanzado" }],
+  },
+];
+
+// i18n
+const messages = {
+  es: {
+    msg: {
+      personalInfo: 'Información Personal',
+      name: 'Nombre',
+      cv: 'CV actualizado',
+      calendar: 'Programar una reunión',
+      cellPhone: 'Celular',
+      langs: 'Idiomas',
+      langENG: 'Inglés:',
+      langSPA: 'Español: Nativo',
+      goalTitle: 'Objetivos',
+      goal: 'Mi objetivo es crecer profesionalmente y desempeñarme de forma óptima en la labor que se me asigne.',
+      aboutTitle: 'Acerca de mi',
+      about: 'Soy autodidacta. Poseo flexibilidad y ansia de conocimiento, aprender nuevas tecnologías es un reto apasionante. Disfruto resolviendo problemas. Tengo experiencia y facilidad para transmitir mis conocimientos a los demás. A nivel intelectual y profesional estoy capacitado para dar respuesta a cualquier requerimiento que se presente. A nivel personal soy una persona carismática de trato agradable, que disfruta de un buen ambiente de trabajo.',
+      briefButton: 'Resumido',
+      detailButton: 'Detallado',
+      techKnowledgeTitle: 'Conocimientos Técnicos',
+      techKnowledgeLabels: { 
+        company: 'Empresa',
+        tool: 'Herramienta',
+        level: 'Nivel',
+        years: 'Años'
+      },
+      tools: tools_en,
+      xpTitle: 'Experiencia Laboral',
+      xps: xps_es
+    }
+  },
+  en: {
+    msg: {
+      personalInfo: 'Personal Information',
+      name: 'Name',
+      cv: 'Updated CV',
+      calendar: 'Schedule a meeting',
+      cellPhone: 'Cell Phone',
+      langs: 'Languages',
+      langENG: 'English:',
+      langSPA: 'Spanish: Native',
+      goalTitle: 'Goals',
+      goal: 'I want to advance my career by constantly training myself and doing my best in every task that is assigned to me.',
+      aboutTitle: 'About me',
+      about: 'I am self-taught. I crave knowledge, learning new technologies is an exciting challenge. I do enjoy problem-solving. As an experienced teacher, it is easy for me to pass my knowledge to others. At an intellectual and professional level, I am qualified to respond to any requirement that may arise. On a personal level, I am a charismatic person with pleasant treatment, who enjoys a good working environment.',
+      briefButton: 'Brief',
+      detailButton: 'Detailed',
+      techKnowledgeTitle: 'Technical Knowledge',
+      techKnowledgeLabels: { 
+        company: 'Company',
+        tool: 'Tool',
+        level: 'Level',
+        years: 'Years'
+      },
+      tools: tools_en,
+      xpTitle: 'Work Experience',
+      xps: xps_en
+    }
+  }
+}
+
+// vue app
+
+const i18n = VueI18n.createI18n({
+  locale: 'en', 
+  fallbackLocale: 'es', 
+  messages, 
+})
+
+const { createApp } = Vue
+
+var app = createApp({
+  data() {
+    return {
+    toolsbrief: false,
+    xpbrief: false,
+    locale: 'en',
+  }},
+  methods: {
+    changeLocale(val) {
+      this.$i18n.locale = val
+      this.locale = val
+    }
+  }
+});
+
+app.use(i18n)
+
 // vue components
-Vue.component('knowledge-item', {
+app.component('knowledge-item', {
   props: ['tool', 'pbrief'],
   template: `
     <div v-show="tool.brief || pbrief" class="row row-cols-4 py-1">
@@ -535,15 +1040,6 @@ Vue.component('knowledge-item', {
       <div class="col-1 text-center">{{ tool.years }}</div>
     </div>
     `,
-})
-
-// vue app
-var app = new Vue({
-  el: '#cv',
-  data: {
-    toolsbrief: false,
-    xpbrief: false,
-    tools: tools_en,
-    xps: xps_en,
-  },
 });
+
+app.mount('#cv');

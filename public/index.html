@@ -8,7 +8,9 @@
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="print.css" />
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://unpkg.com/vue-i18n@9/dist/vue-i18n.global.prod.js"></script>
     <script src="https://kit.fontawesome.com/8c2dea56b3.js" crossorigin="anonymous"></script>
   </head>
 
@@ -26,13 +28,20 @@
 
     <div class="container" id="cv">
       <div class="container py-3">
-        <div class="row font-weight-bold text-white bg-primary">
-          Personal Information
+        <div class="row justify-content-between font-weight-bold text-white bg-primary">
+          <div class="col-7">{{ $t("msg.personalInfo") }}</div>
+          <div class="col-1">
+            <div class="btn-group btn-group-toggle no-print">
+              <button v-on:click="changeLocale('es')" class="btn btn-secondary btn-sm" :class="{ active: locale=='es'}" type="button"><span class="fi fi-es"></span></button>
+              <button v-on:click="changeLocale('en')" class="btn btn-secondary btn-sm" :class="{ active: locale=='en'}" type="button"><span class="fi fi-us"></span></button>
+            </div>
+          </div>
+          
         </div>
         <div class="row">
           <div class="col-9">
             <div class="row">
-              <div class="col-4">Name</div>
+              <div class="col-4">{{ $t("msg.name") }}</div>
               <div class="col-8">Martín Miguel Gómez</div>
             </div>
             <div class="row">
@@ -48,27 +57,27 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-4">Updated CV</div>
+              <div class="col-4">{{ $t("msg.cv") }}</div>
               <div class="col-8">
                 <a href="https://mmgomez-cv.web.app"><i class="fas fa-link"></i> mmgomez-cv.web.app</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-4">Schedule a meeting</div>
+              <div class="col-4">{{ $t("msg.calendar") }}</div>
               <div class="col-8">
                 <a href="https://cal.com/mmgomez"><i class="fas fa-calendar"></i> cal.com/mmgomez</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-4">Cell Phone</div>
+              <div class="col-4">{{ $t("msg.cellPhone") }}</div>
               <div class="col-8">+54 11 6804 9927</div>
             </div>
             <div class="row">
-              <div class="col-4">Languages</div>
+              <div class="col-4">{{ $t("msg.langs") }}</div>
               <div class="col-8">
                 <div class="container">
-                  <div class="row">English:&nbsp;<a href="ESL_language_test-English-2022-07-07-21821.pdf"><i class="fas fa-paperclip"></i> B2 - Upper Intermediate</a></div>
-                  <div class="row">Spanish: Native</div>
+                  <div class="row">{{ $t("msg.langENG") }}&nbsp;<a href="ESL_language_test-English-2022-07-07-21821.pdf"><i class="fas fa-paperclip"></i> B2 - Upper Intermediate</a></div>
+                  <div class="row">{{ $t("msg.langSPA") }}</div>
                 </div>
               </div>
             </div>
@@ -81,45 +90,44 @@
         </div>
       </div>
       <div class="container py-3">
-        <div class="row font-weight-bold text-white bg-primary">Goals</div>
+        <div class="row font-weight-bold text-white bg-primary">{{ $t("msg.goalTitle") }}</div>
         <div class="row">
           <div class="col">
-            I want to advance my career by constantly training myself and doing
-            my best in every task that is assigned to me.
+            {{ $t("msg.goal") }}
           </div>
         </div>
       </div>
       <div class="container py-3">
-        <div class="row font-weight-bold text-white bg-primary">About Me</div>
+        <div class="row font-weight-bold text-white bg-primary">{{ $t("msg.aboutTitle") }}</div>
         <div class="row">
           <div class="col">
-            I am self-taught. I crave knowledge, learning new technologies is an exciting challenge. I do enjoy problem-solving. As an experienced teacher, it is easy for me to pass my knowledge to others. At an intellectual and professional level, I am qualified to respond to any requirement that may arise. On a personal level, I am a charismatic person with pleasant treatment, who enjoys a good working environment.
+            {{ $t("msg.about") }}
           </div>
         </div>
       </div>
       <div class="container py-3">
         <div class="row justify-content-between font-weight-bold text-white bg-primary">
-          <div class="col-6">Technical Knowledge</div>
+          <div class="col-6">{{ $t("msg.techKnowledgeTitle") }}</div>
           <div class="col-2">
             <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
               <label class="btn btn-secondary btn-sm active">
-                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kbrief" v-bind:value="false" /> Brief
+                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kbrief" v-bind:value="false" /> {{ $t("msg.briefButton") }}
               </label>
               <label class="btn btn-secondary btn-sm">
-                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kdetail" v-bind:value="true" /> Detailed
+                <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kdetail" v-bind:value="true" /> {{ $t("msg.detailButton") }}
               </label>
             </div>
           </div>
           <div class="col-1">&nbsp;</div>
         </div>
         <div class="row font-weight-bold text-white bg-secondary row-cols-4">
-          <div class="col-3">Company</div>
-          <div class="col-xs-6 col-sm-6">Tool</div>
-          <div class="col-2">Level</div>
-          <div class="col-1">Years</div>
+          <div class="col-3">{{ $t("msg.techKnowledgeLabels.company") }}</div>
+          <div class="col-xs-6 col-sm-6">{{ $t("msg.techKnowledgeLabels.tool") }}</div>
+          <div class="col-2">{{ $t("msg.techKnowledgeLabels.level") }}</div>
+          <div class="col-1">{{ $t("msg.techKnowledgeLabels.years") }}</div>
         </div>
         <knowledge-item
-          v-for="tool in tools"
+          v-for="tool in $tm('msg.tools')"
           v-bind:pbrief="toolsbrief"
           v-bind:tool="tool"
           v-bind:key="tool.id"
@@ -127,20 +135,20 @@
       </div>
       <div class="container py-3">
         <div class="row justify-content-between font-weight-bold text-white bg-primary">
-          <div class="col-6">Work Experience</div>
+          <div class="col-6">{{ $t("msg.xpTitle") }}</div>
           <div class="col-2">
             <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
               <label class="btn btn-secondary btn-sm active">
-                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpbrief" v-bind:value="false" /> Brief
+                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpbrief" v-bind:value="false" /> {{ $t("msg.briefButton") }}
               </label>
               <label class="btn btn-secondary btn-sm">
-                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpdetail" v-bind:value="true" /> Detailed
+                <input v-model="xpbrief" type="radio" name="xpbrief" id="xpdetail" v-bind:value="true" /> {{ $t("msg.detailButton") }}
               </label>
             </div>
           </div>
           <div class="col-1">&nbsp;</div>
         </div>
-        <div style="break-inside: avoid;" v-for="xp in xps">
+        <div style="break-inside: avoid;" v-for="xp in $tm('msg.xps')">
           <div v-show="xp.brief || xpbrief" class="row text-white bg-secondary">
             <div class="col-6 font-weight-bold">{{ xp.company }}</div>
             <div class="col-3">{{ xp.location }}</div>
