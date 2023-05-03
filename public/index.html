@@ -127,7 +127,7 @@
           <div class="col-1">{{ $t("msg.techKnowledgeLabels.years") }}</div>
         </div>
         <knowledge-item
-          v-for="tool in $tm('msg.tools')"
+          v-for="tool in tools"
           v-bind:pbrief="toolsbrief"
           v-bind:tool="tool"
           v-bind:key="tool.id"

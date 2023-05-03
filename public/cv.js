@@ -967,7 +967,6 @@ const messages = {
         level: 'Nivel',
         years: 'Años'
       },
-      tools: tools_en,
       xpTitle: 'Experiencia Laboral',
       xps: xps_es
     }
@@ -995,7 +994,6 @@ const messages = {
         level: 'Level',
         years: 'Years'
       },
-      tools: tools_en,
       xpTitle: 'Work Experience',
       xps: xps_en
     }
@@ -1017,6 +1015,7 @@ var app = createApp({
     return {
     toolsbrief: false,
     xpbrief: false,
+    tools: tools_en,
     locale: 'en',
   }},
   methods: {
