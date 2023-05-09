@@ -110,10 +110,10 @@
           <div class="col-6">{{ $t("msg.techKnowledgeTitle") }}</div>
           <div class="col-2">
             <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
-              <label class="btn btn-secondary btn-sm active">
+              <label class="btn btn-secondary btn-sm" :class="{ active: toolsbrief==false }">
                 <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kbrief" v-bind:value="false" /> {{ $t("msg.briefButton") }}
               </label>
-              <label class="btn btn-secondary btn-sm">
+              <label class="btn btn-secondary btn-sm" :class="{ active: toolsbrief==true }">
                 <input v-model="toolsbrief" type="radio" name="toolsbrief" id="kdetail" v-bind:value="true" /> {{ $t("msg.detailButton") }}
               </label>
             </div>
@@ -138,10 +138,10 @@
           <div class="col-6">{{ $t("msg.xpTitle") }}</div>
           <div class="col-2">
             <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
-              <label class="btn btn-secondary btn-sm active">
+              <label class="btn btn-secondary btn-sm" :class="{ active: xpbrief==false }">
                 <input v-model="xpbrief" type="radio" name="xpbrief" id="xpbrief" v-bind:value="false" /> {{ $t("msg.briefButton") }}
               </label>
-              <label class="btn btn-secondary btn-sm">
+              <label class="btn btn-secondary btn-sm" :class="{ active: xpbrief==true }">
                 <input v-model="xpbrief" type="radio" name="xpbrief" id="xpdetail" v-bind:value="true" /> {{ $t("msg.detailButton") }}
               </label>
             </div>
