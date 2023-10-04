@@ -541,6 +541,21 @@ const xps_en = [
 
 const xps_es = [
   {
+    company: "HARDATA",
+    business: "Producción y Distribución de medios para emisoras de radio y TV",
+    relationship: "Empleado",
+    location: "Haedo",
+    init: "2023-08",
+    end: "",
+    role: "Arquitecto de Software",
+    brief: true,
+    tasks: [
+      { task: "Migración de arquitectura monolitica a servicios distribuidos." },
+      { task: "Delphi: componentes y generador de código para gRPC" },
+      { task: "C#: servidor de medios controlado por gRPC" },
+    ],
+  },
+  {
     company: "GoJiraf",
     business: "Live Shopping",
     relationship: "Contractor",
@@ -611,7 +626,7 @@ const xps_es = [
     brief: false,
     tasks: [
       { task: "Desarrollo Full Stack en Java, Python, Scala, Node.JS, Angular.JS" },
-      { task: "NodeJS: desarrollo TypeScript con MongoDB " },
+      { task: "NodeJS: desarrollo TypeScript con MongoDB" },
       { task: "Python: creacion de flujo ETL" },
       { task: "MySQL: diseño de base de datos y optimización de consultas" },
       { task: "Scala: desarrollo cloud con Google BigQuery" },
@@ -643,7 +658,7 @@ const xps_es = [
     tasks: [
       { task: "Mantenimiento de framework propio en C# y Java" },
       { task: "Integración con API de terceros" },
-      { task: "Automatización de test de carga con Jenkins." },
+      { task: "Automatización de test de carga con Jenkins" },
       {
         task: "NodeJS: Automatización de builds remotos con Apache Cordova",
       },
