@@ -113,6 +113,21 @@ const tools_en = [
 
 const xps_en = [
   {
+    company: "HARDATA",
+    business: "Broadcast Media Production and Distribution",
+    relationship: "Employee",
+    location: "Haedo",
+    init: "2023-08",
+    end: "",
+    role: "Software Architect",
+    brief: true,
+    tasks: [
+      { task: "Architecture migration from monolith to distributed services." },
+      { task: "Delphi: gRPC stack and code generator" },
+      { task: "C#: gRPC controlled Media server" },
+    ],
+  },
+  {
     company: "GoJiraf",
     business: "Live Shopping",
     relationship: "Contractor",
