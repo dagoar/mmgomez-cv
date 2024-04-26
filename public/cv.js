@@ -3,7 +3,7 @@ const tools_en = [
   {
     id: 0,
     company: "Microsoft",
-    name: "C# (up to 4.7)",
+    name: "C#",
     lvl: "Senior",
     years: "8+",
     brief: true,
@@ -77,7 +77,7 @@ const tools_en = [
   {
     id: 11,
     company: "Linux",
-    name: "Debian, RedHat, CentOS, Arch – Setup & Administration",
+    name: "Debian, RedHat, CentOS, Arch - Setup & Administration",
     lvl: "Senior+",
     years: "12+",
     brief: true,
@@ -93,7 +93,7 @@ const tools_en = [
   {
     id: 13,
     company: "*nix networking",
-    name: "TCP-IP – Routing, Firewalls, VPN, VoIP",
+    name: "TCP-IP : Routing, Firewalls, VPN, VoIP",
     lvl: "Senior",
     years: "9+",
     brief: false,
@@ -108,7 +108,7 @@ const tools_en = [
   },
   { id: 15, company: "", name: "PHP", lvl: "SemiSr", years: "3+", brief: false },
   { id: 16, company: "", name: "Python", lvl: "Junior", years: "1", brief: false },
-  { id: 17, company: "Amazon", name: "AWS", lvl: "Junior", years: "1", brief: true },
+  { id: 17, company: "Amazon", name: "AWS", lvl: "Junior", years: "1+", brief: true },
 ];
 
 const xps_en = [
@@ -125,6 +125,7 @@ const xps_en = [
       { task: "Architecture migration from monolith to distributed services." },
       { task: "Delphi: gRPC stack and code generator" },
       { task: "C#: gRPC controlled Media server" },
+      { task: "C#/React: SignalR stack for remote control" },
     ],
   },
   {
@@ -256,7 +257,7 @@ const xps_en = [
       },
       { task: "PHP, JavaScript & MySQL development" },
       {
-        task: "Linux server administration – Load balancer, Hosting LAMP, DNS",
+        task: "Linux server administration - Load balancer, Hosting LAMP, DNS",
       },
     ],
   },
@@ -294,7 +295,7 @@ const xps_en = [
       { task: "PIC C, VB 6.0, C#, C++ development" },
       {
         task:
-          "Intranet implementation – incremental backup, mail, wiki, and source control servers",
+          "Intranet implementation - incremental backup, mail, wiki, and source control servers",
       },
     ],
   },
@@ -370,7 +371,7 @@ const xps_en = [
     location: "Vicente Lopez",
     init: "2002",
     end: "2004",
-    role: "Delphi – Clipper developer / Network administrator",
+    role: "Delphi - Clipper developer / Network administrator",
     brief: false,
     tasks: [
       {
@@ -432,7 +433,7 @@ const xps_en = [
     tasks: [
       { task: "QB / Btrieve system migrations to be Y2K ready." },
       {
-        task: "Customer Novell Netware support – Server administration",
+        task: "Customer Novell Netware support - Server administration",
       },
       {
         task:
@@ -460,7 +461,7 @@ const xps_en = [
   },
   {
     company: "Producciones Digitales SH",
-    business: "Image Consulting – Multimedia Studio",
+    business: "Image Consulting - Multimedia Studio",
     relationship: "Freelance",
     location: "CABA",
     init: "1995",
@@ -553,6 +554,7 @@ const xps_es = [
       { task: "Migración de arquitectura monolitica a servicios distribuidos." },
       { task: "Delphi: componentes y generador de código para gRPC" },
       { task: "C#: servidor de medios controlado por gRPC" },
+      { task: "C#/React: control remoto de aplicación utilizando SignalR" },
     ],
   },
   {
@@ -893,7 +895,7 @@ const xps_es = [
   },
   {
     company: "Producciones Digitales SH",
-    business: "Consultoría de Imagen – Estudio Multimedia",
+    business: "Consultoría de Imagen - Estudio Multimedia",
     relationship: "Freelance",
     location: "CABA",
     init: "1995",
