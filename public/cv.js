@@ -113,12 +113,25 @@ const tools_en = [
 
 const xps_en = [
   {
+    company: "Svitla",
+    business: "Software Development Consultants",
+    relationship: "Contractor",
+    location: "",
+    init: "2024-05",
+    end: "",
+    role: "Staff Software Engineer",
+    brief: true,
+    tasks: [
+      { task: "C#: Software maintenance. gRPC and SignalR." },
+    ],
+  },
+  {
     company: "HARDATA",
     business: "Broadcast Media Production and Distribution",
     relationship: "Employee",
     location: "Haedo",
     init: "2023-08",
-    end: "",
+    end: "2024-05",
     role: "Software Architect",
     brief: true,
     tasks: [
@@ -541,12 +554,24 @@ const xps_en = [
 
 const xps_es = [
   {
+    company: "Svitla",
+    business: "Consultoría en desarrollo de software",
+    relationship: "Contractor",
+    location: "",
+    init: "2024-05",
+    end: "",
+    role: "Desarrollador Senior",
+    brief: true,
+    tasks: [
+      { task: "C#: Mantenimiento de software, usando gRPC y SignalR." },
+    ],
+  },  {
     company: "HARDATA",
     business: "Producción y Distribución de medios para emisoras de radio y TV",
     relationship: "Empleado",
     location: "Haedo",
     init: "2023-08",
-    end: "",
+    end: "2024-05",
     role: "Arquitecto de Software",
     brief: true,
     tasks: [
