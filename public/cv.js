@@ -109,6 +109,7 @@ const tools_en = [
   { id: 15, company: "", name: "PHP", lvl: "SemiSr", years: "3+", brief: false },
   { id: 16, company: "", name: "Python", lvl: "Junior", years: "1", brief: false },
   { id: 17, company: "Amazon", name: "AWS", lvl: "Junior", years: "1", brief: true },
+  { id: 18, company: "", name: "Ruby", lvl: "Junior", years: "1", brief: false },
 ];
 
 const xps_en = [
@@ -123,6 +124,7 @@ const xps_en = [
     brief: true,
     tasks: [
       { task: "C#: Software maintenance. gRPC and SignalR." },
+      { task: "Ruby: Software maintenance. RoR and Hotwire Turbo." },
     ],
   },
   {
@@ -564,6 +566,8 @@ const xps_es = [
     brief: true,
     tasks: [
       { task: "C#: Mantenimiento de software, usando gRPC y SignalR." },
+      { task: "Ruby: Mantenimiento de software, usando RoR y Hotwire Turbo." },
+
     ],
   },  {
     company: "HARDATA",
