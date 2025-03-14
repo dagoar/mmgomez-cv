@@ -56,8 +56,22 @@ const tools_en = [
     years: "12",
     brief: true,
   },
-  { id: 7, company: "", name: "Turbo Pascal", lvl: "SemiSr", years: "2", brief: false },
-  { id: 8, company: "", name: "Turbo C/C++", lvl: "SemiSr", years: "2", brief: false },
+  {
+    id: 7,
+    company: "",
+    name: "Turbo Pascal",
+    lvl: "SemiSr",
+    years: "2",
+    brief: false,
+  },
+  {
+    id: 8,
+    company: "",
+    name: "Turbo C/C++",
+    lvl: "SemiSr",
+    years: "2",
+    brief: false,
+  },
   {
     id: 9,
     company: "LIANT",
@@ -106,24 +120,67 @@ const tools_en = [
     years: "4+",
     brief: true,
   },
-  { id: 15, company: "", name: "PHP", lvl: "SemiSr", years: "3+", brief: false },
-  { id: 16, company: "", name: "Python", lvl: "Junior", years: "1", brief: false },
-  { id: 17, company: "Amazon", name: "AWS", lvl: "Junior", years: "1+", brief: true },
+  {
+    id: 15,
+    company: "",
+    name: "PHP",
+    lvl: "SemiSr",
+    years: "3+",
+    brief: false,
+  },
+  {
+    id: 16,
+    company: "",
+    name: "Python",
+    lvl: "Junior",
+    years: "1",
+    brief: false,
+  },
+  {
+    id: 17,
+    company: "",
+    name: "Ruby",
+    lvl: "Junior",
+    years: "1",
+    brief: false,
+  },
+  {
+    id: 18,
+    company: "Amazon",
+    name: "AWS",
+    lvl: "Junior",
+    years: "1",
+    brief: true,
+  },
 ];
 
 const xps_en = [
+  {
+    company: "Svitla",
+    business: "Software Development Consultants",
+    relationship: "Contractor",
+    location: "",
+    init: "2024-05",
+    end: "",
+    role: "Staff Software Engineer",
+    brief: true,
+    tasks: [
+      { task: "C#: Software maintenance. gRPC and SignalR." },
+      { task: "Ruby: Software maintenance. RoR and Hotwire Turbo." },
+    ],
+  },
   {
     company: "HARDATA",
     business: "Broadcast Media Production and Distribution",
     relationship: "Employee",
     location: "Haedo",
     init: "2023-08",
-    end: "",
+    end: "2024-05",
     role: "Software Architect",
     brief: true,
     tasks: [
       { task: "Architecture migration from monolith to distributed services." },
-      { task: "Delphi: gRPC stack and code generator" },
+      { task: "Delphi and C++: gRPC stack and code generator" },
       { task: "C#: gRPC controlled Media server" },
       { task: "C#/React: SignalR stack for remote control" },
     ],
@@ -198,7 +255,9 @@ const xps_en = [
     role: "Senior Developer",
     brief: false,
     tasks: [
-      { task: "Full Stack development in Java, Python, Scala, Node.JS, Angular.JS" },
+      {
+        task: "Full Stack development in Java, Python, Scala, Node.JS, Angular.JS",
+      },
       { task: "NodeJS: TypeScript and MongoDB development" },
       { task: "Python: ETL chain creation" },
       { task: "MySQL: database design, query optimization" },
@@ -248,12 +307,10 @@ const xps_en = [
     brief: true,
     tasks: [
       {
-        task:
-          "Design and development of online communities software for Twitter",
+        task: "Design and development of online communities software for Twitter",
       },
       {
-        task:
-          "News Network administration and Plugin development with WordPress",
+        task: "News Network administration and Plugin development with WordPress",
       },
       { task: "PHP, JavaScript & MySQL development" },
       {
@@ -288,14 +345,12 @@ const xps_en = [
     brief: true,
     tasks: [
       {
-        task:
-          "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
+        task: "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
       },
       { task: "Design and development of medical laser interfaces" },
       { task: "PIC C, VB 6.0, C#, C++ development" },
       {
-        task:
-          "Intranet implementation - incremental backup, mail, wiki, and source control servers",
+        task: "Intranet implementation – incremental backup, mail, wiki, and source control servers",
       },
     ],
   },
@@ -310,16 +365,13 @@ const xps_en = [
     brief: true,
     tasks: [
       {
-        task:
-          "Development of WMS and Traceability solutions for the pharmaceutical industry",
+        task: "Development of WMS and Traceability solutions for the pharmaceutical industry",
       },
       {
-        task:
-          "Development of interfaces between COBOL and Delphi systems: Check printer, Hasar and EPSON fiscal printer, WebServices, Traceability with SSL package signing",
+        task: "Development of interfaces between COBOL and Delphi systems: Check printer, Hasar and EPSON fiscal printer, WebServices, Traceability with SSL package signing",
       },
       {
-        task:
-          "Infrastructure migration to free software: mail, proxy, VPN, firewall, domain controller, file server, backup, and SVN",
+        task: "Infrastructure migration to free software: mail, proxy, VPN, firewall, domain controller, file server, backup, and SVN",
       },
       { task: "Intranet implementation: wiki, bugtracker & CRM" },
       { task: "Delphi, COBOL, MS SQL Server y PostgreSQL development" },
@@ -338,8 +390,7 @@ const xps_en = [
       { task: "In-house ORM maintenance" },
       { task: "Development of new modules and reports. Bug fixing" },
       {
-        task:
-          "Delphi with MS SQL Server, Oracle, PostgreSQL & Firebird development",
+        task: "Delphi with MS SQL Server, Oracle, PostgreSQL & Firebird development",
       },
     ],
   },
@@ -358,8 +409,7 @@ const xps_en = [
       },
       { task: "Online construction costs calculator" },
       {
-        task:
-          "Intranet implementation: file server, SQL server, proxy, firewall + traffic-shaping",
+        task: "Intranet implementation: file server, SQL server, proxy, firewall + traffic-shaping",
       },
       { task: "Delphi, PHP, MySQL, PostgreSQL development" },
     ],
@@ -379,8 +429,7 @@ const xps_en = [
       },
       { task: "NT4 domain to Windows 2000 ActiveDirectory migration" },
       {
-        task:
-          "VPN & VoIP implementation with Brazil factory, using free software",
+        task: "VPN & VoIP implementation with Brazil factory, using free software",
       },
     ],
   },
@@ -395,8 +444,7 @@ const xps_en = [
     brief: false,
     tasks: [
       {
-        task:
-          "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
+        task: "Design and development of tablet manufacturing system for the pharmaceutical industry with capture and analysis of images in real-time",
       },
     ],
   },
@@ -411,8 +459,7 @@ const xps_en = [
     brief: false,
     tasks: [
       {
-        task:
-          "Online applications design and development: NavCash, MP3Sherlock, FullZero dialer, Instant Messaging system",
+        task: "Online applications design and development: NavCash, MP3Sherlock, FullZero dialer, Instant Messaging system",
       },
       { task: "Cross-platform servers for all of our products" },
       {
@@ -436,8 +483,7 @@ const xps_en = [
         task: "Customer Novell Netware support - Server administration",
       },
       {
-        task:
-          "DOS (QB/Btrieve) to Windows (Delphi/PervasiveSQL) system migration",
+        task: "DOS (QB/Btrieve) to Windows (Delphi/PervasiveSQL) system migration",
       },
     ],
   },
@@ -501,8 +547,7 @@ const xps_en = [
     brief: false,
     tasks: [
       {
-        task:
-          "Multimedia self-service stand development, deployed at Spinetto Shopping Center, Nine Center& COTO C.I.C.S.A (Suc. Sarandí)",
+        task: "Multimedia self-service stand development, deployed at Spinetto Shopping Center, Nine Center& COTO C.I.C.S.A (Suc. Sarandí)",
       },
       { task: "Windows 95 & Winsock Instant Messenger development" },
       { task: "TAPI, Voice Recognition, DirectX y OpenGL research" },
@@ -542,17 +587,33 @@ const xps_en = [
 
 const xps_es = [
   {
+    company: "Svitla",
+    business: "Consultoría en desarrollo de software",
+    relationship: "Contractor",
+    location: "",
+    init: "2024-05",
+    end: "",
+    role: "Desarrollador Senior",
+    brief: true,
+    tasks: [
+      { task: "C#: Mantenimiento de software, usando gRPC y SignalR." },
+      { task: "Ruby: Mantenimiento de software, usando RoR y Hotwire Turbo." },
+    ],
+  },
+  {
     company: "HARDATA",
     business: "Producción y Distribución de medios para emisoras de radio y TV",
     relationship: "Empleado",
     location: "Haedo",
     init: "2023-08",
-    end: "",
+    end: "2024-05",
     role: "Arquitecto de Software",
     brief: true,
     tasks: [
-      { task: "Migración de arquitectura monolitica a servicios distribuidos." },
-      { task: "Delphi: componentes y generador de código para gRPC" },
+      {
+        task: "Migración de arquitectura monolitica a servicios distribuidos.",
+      },
+      { task: "Delphi y C++: componentes y generador de código para gRPC" },
       { task: "C#: servidor de medios controlado por gRPC" },
       { task: "C#/React: control remoto de aplicación utilizando SignalR" },
     ],
@@ -584,7 +645,9 @@ const xps_es = [
     tasks: [
       { task: "NodeJS: desarrollo TypeScript con NestJS" },
       { task: "NodeJS: creación de flujo ETL" },
-      { task: "PosgreSQL: diseño de base de datos y optimización de consultas" },
+      {
+        task: "PosgreSQL: diseño de base de datos y optimización de consultas",
+      },
     ],
   },
   {
@@ -627,7 +690,9 @@ const xps_es = [
     role: "Desarrollador Senior",
     brief: false,
     tasks: [
-      { task: "Desarrollo Full Stack en Java, Python, Scala, Node.JS, Angular.JS" },
+      {
+        task: "Desarrollo Full Stack en Java, Python, Scala, Node.JS, Angular.JS",
+      },
       { task: "NodeJS: desarrollo TypeScript con MongoDB" },
       { task: "Python: creacion de flujo ETL" },
       { task: "MySQL: diseño de base de datos y optimización de consultas" },
@@ -677,16 +742,13 @@ const xps_es = [
     brief: true,
     tasks: [
       {
-        task:
-          "Diseño y desarrollo de comunidades online para Twitter",
+        task: "Diseño y desarrollo de comunidades online para Twitter",
       },
       {
-        task:
-          "Administración de red de sitios de noticias",
+        task: "Administración de red de sitios de noticias",
       },
       {
-        task:
-          "Desarrollo de plugins para WordPress",
+        task: "Desarrollo de plugins para WordPress",
       },
 
       { task: "Desarrollo PHP, JavaScript & MySQL" },
@@ -722,14 +784,12 @@ const xps_es = [
     brief: true,
     tasks: [
       {
-        task:
-          "Diseño y desarrollo de un sistema para la manufactura de medicamentos con captura de imágenes y análisis en tiempo real"
+        task: "Diseño y desarrollo de un sistema para la manufactura de medicamentos con captura de imágenes y análisis en tiempo real",
       },
       { task: "Diseño y desarrollo de interfases para laser medicinales" },
       { task: "Desarrollo en PIC C, VB 6.0, C# y C++" },
       {
-        task:
-          "Implementación de Intranet : backups incrementales, mail, wiki, y control de versiones",
+        task: "Implementación de Intranet : backups incrementales, mail, wiki, y control de versiones",
       },
     ],
   },
@@ -744,16 +804,13 @@ const xps_es = [
     brief: true,
     tasks: [
       {
-        task:
-          "Desarrollo de soluciones WMS y Trazabilidad para la industria farmacéutica",
+        task: "Desarrollo de soluciones WMS y Trazabilidad para la industria farmacéutica",
       },
       {
-        task:
-          "Desarrollo de interfases entre sistemas COBOL y Delphi: Impresora de cheques, Impresoras fiscales Hasar y EPSON, WebServices, Trazabilidad con firmado de paquetes SSL",
+        task: "Desarrollo de interfases entre sistemas COBOL y Delphi: Impresora de cheques, Impresoras fiscales Hasar y EPSON, WebServices, Trazabilidad con firmado de paquetes SSL",
       },
       {
-        task:
-          "Migración de infraestructura hacia software libre: mail, proxy, VPN, firewall, controlador de dominio, file server, backup, y SVN",
+        task: "Migración de infraestructura hacia software libre: mail, proxy, VPN, firewall, controlador de dominio, file server, backup, y SVN",
       },
       { task: "Implementacion de Intranet: wiki, bugtracker y CRM" },
       { task: "Desarrollos en Delphi, COBOL, MS SQL Server y PostgreSQL" },
@@ -772,8 +829,7 @@ const xps_es = [
       { task: "Mantenimiento de ORM interno" },
       { task: "Desarrollo de nuevos módulos y reportes. Solución de errores." },
       {
-        task:
-          "Desarrollo con Delphi y MS SQL Server, Oracle, PostgreSQL & Firebird",
+        task: "Desarrollo con Delphi y MS SQL Server, Oracle, PostgreSQL & Firebird",
       },
     ],
   },
@@ -792,8 +848,7 @@ const xps_es = [
       },
       { task: "Calculadora de costo de obra online" },
       {
-        task:
-          "Implementación de Intranet: file server, SQL server, proxy, firewall + traffic-shaping",
+        task: "Implementación de Intranet: file server, SQL server, proxy, firewall + traffic-shaping",
       },
       { task: "Desarrollo con Delphi, PHP, MySQL y PostgreSQL" },
     ],
@@ -813,8 +868,7 @@ const xps_es = [
       },
       { task: "Migración de dominio NT4 a Windows 2000 ActiveDirectory" },
       {
-        task:
-          "Implementación de VPN y VoIP con la planta de Brasil, usando software libre",
+        task: "Implementación de VPN y VoIP con la planta de Brasil, usando software libre",
       },
     ],
   },
@@ -829,8 +883,7 @@ const xps_es = [
     brief: false,
     tasks: [
       {
-        task:
-        "Diseño y desarrollo de un sistema para la manufactura de medicamentos con captura de imágenes y análisis en tiempo real",
+        task: "Diseño y desarrollo de un sistema para la manufactura de medicamentos con captura de imágenes y análisis en tiempo real",
       },
     ],
   },
@@ -845,8 +898,7 @@ const xps_es = [
     brief: false,
     tasks: [
       {
-        task:
-          "Diseño y desarrollo de productos online: NavCash, MP3Sherlock, discador FullZero, sistema de mensajería instantánea",
+        task: "Diseño y desarrollo de productos online: NavCash, MP3Sherlock, discador FullZero, sistema de mensajería instantánea",
       },
       { task: "Servidores Cross-platform para todos nuestros productos" },
       {
@@ -870,8 +922,7 @@ const xps_es = [
         task: "Administración y soporte de redes Novell Netware de clientes",
       },
       {
-        task:
-          "Migración de sistemas DOS (QB/Btrieve) a Windows (Delphi/PervasiveSQL)",
+        task: "Migración de sistemas DOS (QB/Btrieve) a Windows (Delphi/PervasiveSQL)",
       },
     ],
   },
@@ -921,7 +972,9 @@ const xps_es = [
       { task: "Administrador de redes NT y SGI (Silicon Graphics)" },
       { task: "Desarrollo de plugins para Maya y 3DStudio MAX" },
       { task: "Desarrollo de páginas web Flash" },
-      { task: "Proyecto: Animadora de programas de TV virtual con OpenGL en real-time" },
+      {
+        task: "Proyecto: Animadora de programas de TV virtual con OpenGL en real-time",
+      },
     ],
   },
   {
@@ -935,10 +988,11 @@ const xps_es = [
     brief: false,
     tasks: [
       {
-        task:
-          "Desarrollo de puesto de autoconsulta, instalado en Spinetto Shopping Center, Nine Center y COTO C.I.C.S.A (Suc. Sarandí)",
+        task: "Desarrollo de puesto de autoconsulta, instalado en Spinetto Shopping Center, Nine Center y COTO C.I.C.S.A (Suc. Sarandí)",
       },
-      { task: "Desarrollo de Mensajería Instantánea en Windows 95 con Winsock" },
+      {
+        task: "Desarrollo de Mensajería Instantánea en Windows 95 con Winsock",
+      },
       { task: "Investigación de TAPI, Voice Recognition, DirectX y OpenGL" },
       { task: "Motor 3D para paseo virtual por Shopping (FPS, árboles BSP)" },
     ],
@@ -978,91 +1032,94 @@ const xps_es = [
 const messages = {
   es: {
     msg: {
-      personalInfo: 'Información Personal',
-      name: 'Nombre',
-      cv: 'CV actualizado',
-      calendar: 'Programar una reunión',
-      cellPhone: 'Celular',
-      langs: 'Idiomas',
-      langENG: 'Inglés:',
-      langSPA: 'Español: Nativo',
-      goalTitle: 'Objetivos',
-      goal: 'Mi objetivo es crecer profesionalmente y desempeñarme de forma óptima en la labor que se me asigne.',
-      aboutTitle: 'Acerca de mi',
-      about: 'Soy autodidacta. Poseo flexibilidad y ansia de conocimiento, aprender nuevas tecnologías es un reto apasionante. Disfruto resolviendo problemas. Tengo experiencia y facilidad para transmitir mis conocimientos a los demás. A nivel intelectual y profesional estoy capacitado para dar respuesta a cualquier requerimiento que se presente. A nivel personal soy una persona carismática de trato agradable, que disfruta de un buen ambiente de trabajo.',
-      briefButton: 'Resumido',
-      detailButton: 'Detallado',
-      techKnowledgeTitle: 'Conocimientos Técnicos',
-      techKnowledgeLabels: { 
-        company: 'Empresa',
-        tool: 'Herramienta',
-        level: 'Nivel',
-        years: 'Años'
+      personalInfo: "Información Personal",
+      name: "Nombre",
+      cv: "CV actualizado",
+      calendar: "Programar una reunión",
+      cellPhone: "Celular",
+      langs: "Idiomas",
+      langENG: "Inglés:",
+      langSPA: "Español: Nativo",
+      goalTitle: "Objetivos",
+      goal: "Mi objetivo es crecer profesionalmente y desempeñarme de forma óptima en la labor que se me asigne.",
+      aboutTitle: "Acerca de mi",
+      about:
+        "Soy autodidacta. Poseo flexibilidad y ansia de conocimiento, aprender nuevas tecnologías es un reto apasionante. Disfruto resolviendo problemas. Tengo experiencia y facilidad para transmitir mis conocimientos a los demás. A nivel intelectual y profesional estoy capacitado para dar respuesta a cualquier requerimiento que se presente. A nivel personal soy una persona carismática de trato agradable, que disfruta de un buen ambiente de trabajo.",
+      briefButton: "Resumido",
+      detailButton: "Detallado",
+      techKnowledgeTitle: "Conocimientos Técnicos",
+      techKnowledgeLabels: {
+        company: "Empresa",
+        tool: "Herramienta",
+        level: "Nivel",
+        years: "Años",
       },
-      xpTitle: 'Experiencia Laboral',
-      xps: xps_es
-    }
+      xpTitle: "Experiencia Laboral",
+      xps: xps_es,
+    },
   },
   en: {
     msg: {
-      personalInfo: 'Personal Information',
-      name: 'Name',
-      cv: 'Updated CV',
-      calendar: 'Schedule a meeting',
-      cellPhone: 'Cell Phone',
-      langs: 'Languages',
-      langENG: 'English:',
-      langSPA: 'Spanish: Native',
-      goalTitle: 'Goals',
-      goal: 'I want to advance my career by constantly training myself and doing my best in every task that is assigned to me.',
-      aboutTitle: 'About me',
-      about: 'I am self-taught. I crave knowledge, learning new technologies is an exciting challenge. I do enjoy problem-solving. As an experienced teacher, it is easy for me to pass my knowledge to others. At an intellectual and professional level, I am qualified to respond to any requirement that may arise. On a personal level, I am a charismatic person with pleasant treatment, who enjoys a good working environment.',
-      briefButton: 'Brief',
-      detailButton: 'Detailed',
-      techKnowledgeTitle: 'Technical Knowledge',
-      techKnowledgeLabels: { 
-        company: 'Company',
-        tool: 'Tool',
-        level: 'Level',
-        years: 'Years'
+      personalInfo: "Personal Information",
+      name: "Name",
+      cv: "Updated CV",
+      calendar: "Schedule a meeting",
+      cellPhone: "Cell Phone",
+      langs: "Languages",
+      langENG: "English:",
+      langSPA: "Spanish: Native",
+      goalTitle: "Goals",
+      goal: "I want to advance my career by constantly training myself and doing my best in every task that is assigned to me.",
+      aboutTitle: "About me",
+      about:
+        "I am self-taught. I crave knowledge, learning new technologies is an exciting challenge. I do enjoy problem-solving. As an experienced teacher, it is easy for me to pass my knowledge to others. At an intellectual and professional level, I am qualified to respond to any requirement that may arise. On a personal level, I am a charismatic person with pleasant treatment, who enjoys a good working environment.",
+      briefButton: "Brief",
+      detailButton: "Detailed",
+      techKnowledgeTitle: "Technical Knowledge",
+      techKnowledgeLabels: {
+        company: "Company",
+        tool: "Tool",
+        level: "Level",
+        years: "Years",
       },
-      xpTitle: 'Work Experience',
-      xps: xps_en
-    }
-  }
-}
+      xpTitle: "Work Experience",
+      xps: xps_en,
+    },
+  },
+};
 
 // vue app
 
 const i18n = VueI18n.createI18n({
-  locale: 'en', 
-  fallbackLocale: 'es', 
-  messages, 
-})
+  locale: "en",
+  fallbackLocale: "es",
+  messages,
+});
 
-const { createApp } = Vue
+const { createApp } = Vue;
 
 var app = createApp({
   data() {
     return {
-    toolsbrief: false,
-    xpbrief: false,
-    tools: tools_en,
-    locale: 'en',
-  }},
+      toolsbrief: false,
+      xpbrief: false,
+      tools: tools_en,
+      locale: "en",
+    };
+  },
   methods: {
     changeLocale(val) {
-      this.$i18n.locale = val
-      this.locale = val
-    }
-  }
+      this.$i18n.locale = val;
+      this.locale = val;
+    },
+  },
 });
 
-app.use(i18n)
+app.use(i18n);
 
 // vue components
-app.component('knowledge-item', {
-  props: ['tool', 'pbrief'],
+app.component("knowledge-item", {
+  props: ["tool", "pbrief"],
   template: `
     <div v-show="tool.brief || pbrief" class="row row-cols-4 py-1">
       <div class="col-3">{{ tool.company }}</div>
@@ -1073,4 +1130,4 @@ app.component('knowledge-item', {
     `,
 });
 
-app.mount('#cv');
+app.mount("#cv");
