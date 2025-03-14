@@ -117,7 +117,7 @@ const tools_en = [
     company: "Open Source",
     name: "Node.JS",
     lvl: "SemiSr",
-    years: "4+",
+    years: "5+",
     brief: true,
   },
   {
@@ -161,7 +161,7 @@ const xps_en = [
     relationship: "Contractor",
     location: "",
     init: "2024-05",
-    end: "",
+    end: "2025-01",
     role: "Staff Software Engineer",
     brief: true,
     tasks: [
@@ -592,7 +592,7 @@ const xps_es = [
     relationship: "Contractor",
     location: "",
     init: "2024-05",
-    end: "",
+    end: "2025-01",
     role: "Desarrollador Senior",
     brief: true,
     tasks: [
