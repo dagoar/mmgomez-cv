@@ -116,7 +116,7 @@ const tools_en = [
     id: 14,
     company: "Open Source",
     name: "Node.JS",
-    lvl: "SemiSr",
+    lvl: "Senior",
     years: "5+",
     brief: true,
   },
