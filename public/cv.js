@@ -182,7 +182,7 @@ const xps_en = [
       { task: "Architecture migration from monolith to distributed services." },
       { task: "Delphi and C++: gRPC stack and code generator" },
       { task: "C#: gRPC controlled Media server" },
-      { task: "C#/React: SignalR stack for remote control" },
+      { task: "C#/React/NextJS: SignalR stack for remote control" },
     ],
   },
   {
@@ -210,7 +210,7 @@ const xps_en = [
     role: "NodeJS Engineer",
     brief: true,
     tasks: [
-      { task: "NodeJS: TypeScript development" },
+      { task: "NodeJS: TypeScript development, NestJS backend & ReactJS/NextJS frontend maintenance" },
       { task: "NodeJS: ETL chain creation" },
       { task: "PosgreSQL: database design, query optimization" },
     ],
