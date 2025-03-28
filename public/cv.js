@@ -168,6 +168,14 @@ const xps_en = [
       { task: "C#: Software maintenance. gRPC and SignalR." },
       { task: "Ruby: Software maintenance. RoR and Hotwire Turbo." },
     ],
+    responsibilities: [
+      { resp: "Analyzed and fixed bugs in a multi technology app, tracing the source of problems across React with Next.JS, C#, C++ and Visual BASIC 6 modules." },
+      { resp: "Documented new processes and enhanced existing ones using Confluence." },
+      { resp: "Created and supported REST API endpoints, gRPC procedures and SignalR messages for internal inter-modules communication." },
+      { resp: "Implemented usage metrics based on event tracking in Ruby On Rails application." },
+      { resp: "Wrote functional, unit and e2e test using RSpec and Capybara." },
+      { resp: "Aided in the migration from React to Hotwire Turbo for better RoR integration." },
+    ],
   },
   {
     company: "HARDATA",
@@ -184,6 +192,12 @@ const xps_en = [
       { task: "C#: gRPC controlled Media server" },
       { task: "C#/React/NextJS: SignalR stack for remote control" },
     ],
+    responsibilities: [
+      { resp: "Designed architecture migration from C++Builder monolith to distributed services with web frontend." },
+      { resp: "Wrote a gRPC Delphi code generator for integrating with the C++Builder legacy app."},
+      { resp: "Wrote Proof-Of-Concept C# Media Server controlled by gRPC." },
+      { resp: "Integrated SignalR messaging between React with Next.JS frontend and C# backend." },
+    ],
   },
   {
     company: "GoJiraf",
@@ -198,6 +212,14 @@ const xps_en = [
       { task: "NodeJS: NestJS and Loopback development" },
       { task: "React: Front End development" },
       { task: "AWS: Lambdas development with S3 integration" },
+    ],
+    responsibilities: [
+      { resp: "Developed and implemented an AWS Lambda function for bulk insertion of products into the database from AWS S3 upload" },
+      { resp: "Supported legacy application in NodeJS-Loopback framework" },
+      { resp: "Developed microservices in TypeScript using the NestJs framework, conducting local tests against Docker to ensure robust functionality." },
+      { resp: "Worked on React application bug fixing, enhancing user experience and application performance." },
+      { resp: "Maintained comprehensive documentation in Confluence to facilitate team collaboration and knowledge sharing." },
+      { resp: "Created unit tests with Jest, ensuring code reliability." },
     ],
   },
   {
@@ -214,6 +236,14 @@ const xps_en = [
       { task: "NodeJS: ETL chain creation" },
       { task: "PosgreSQL: database design, query optimization" },
     ],
+    responsibilities: [
+      { resp: "Integrated VISA's CyberSource API, ensuring seamless payment processing and security compliance." },
+      { resp: "Developed AWS Lambdas using TypeScript, conducting local tests with Docker to ensure functionality and performance." },
+      { resp: "Leveraged Visual Studio Code for efficient coding practices and utilized Postman for thorough API testing." },
+      { resp: "Employed automation testing tools, specifically writing unit tests with Jasmine." },
+      { resp: "Created ETL chain in NodeJS to populate several database tables from Excel." },
+      { resp: "Designed PostgreSQL databases and optimized queries based on execution plan and runtime profiling." },
+    ],
   },
   {
     company: "Solution Box Argentina",
@@ -229,6 +259,11 @@ const xps_en = [
       { task: "NodeJS: Marketplaces (VTEX, Aper) Integration using REST API" },
       { task: "MySQL: query optimization" },
     ],
+    responsibilities: [
+      { resp: "Maintained and optimized the Delphi ERP system to support business processes and improve user experience." },
+      { resp: "Led the integration of eCommerce solutions with our ERP system, creating NodeJS-Express services and ensuring seamless data flow." },
+      { resp: "Managed local MySQL servers using Oracle VM VirtualBox, creating robust development and testing environments." },
+    ],
   },
   {
     company: "PROSEGUR",
@@ -243,6 +278,13 @@ const xps_en = [
       { task: "Full Stack development in C# using .NET 4.5 and .NET core" },
       { task: "REST APIs and SOAP WebServices development" },
       { task: "Oracle SQL query optimization" },
+    ],
+    responsibilities: [
+      { resp: "Utilized Jira as a bug tracker to manage and resolve issues effectively, contributing to the overall quality of the software." },
+      { resp: "Engaged in bug fixing for .NET Framework MVC applications and enhanced new .NET Core applications and REST APIs, utilizing C#." },
+      { resp: "Managed local MySQL servers using Oracle VM VirtualBox, creating robust development and testing environments." },
+      { resp: "Conducted debugging and optimization of stored procedures in Oracle 11, further contributing to the efficiency and reliability of our database management practices." },
+      { resp: "Debugged and optimized SOAP and WCF WebServices, utilizing C#." },
     ],
   },
   {
@@ -295,6 +337,12 @@ const xps_en = [
         task: "Remote Cordova build automation with custom server in Node.JS.",
       },
     ],
+    responsibilities: [
+      { resp: "Maintained both versions of the In-house Low Code framework using C# and Java." },
+      { resp: "Integrated 3rd party OAuth2 and SSO." },
+      { resp: "Leveraged Jenkins for automated load testing." },
+      { resp: "Created a NodeJS-Express service to automate Cordova app building generated from the Low Code framework." },
+    ],    
   },
   {
     company: "Data & Tendencias",
@@ -316,6 +364,12 @@ const xps_en = [
       {
         task: "Linux server administration - Load balancer, Hosting LAMP, DNS",
       },
+    ],
+    responsibilities: [
+      { resp: "Designed and developed Online Communities manager for Twitter, utilizing PHP Laravel and CodeIgniter frameworks." },
+      { resp: "Implemented a WordPress plugin to show communities rankings in News network." },
+      { resp: "Automated WordPress publication thru RPC across the News network." },
+      { resp: "Maintained DigitalOcen VPS hosting, implemented Load Balancer and DynDNS." },
     ],
   },
   {
@@ -353,6 +407,12 @@ const xps_en = [
         task: "Intranet implementation – incremental backup, mail, wiki, and source control servers",
       },
     ],
+    responsibilities: [
+      { resp: "Designed and implemented a tablet manufacturing quality assurance system for the pharmaceutical industry with capture and analysis of images in real-time, utilizing Visual BASIC 6, Visual C++ and .NET Framework C#." },
+      { resp: "Designed and developed portable medical laser interfaces in Windows CE, utilizing C# over the .NET Compact Framework." },
+      { resp: "Wrote low level functions in PIC C and Assembler." },
+      { resp: "Implemented the company's Intranet: incremental backup, mail, wiki, and source control servers." },      
+    ],
   },
   {
     company: "FOBESA SA",
@@ -362,7 +422,7 @@ const xps_en = [
     init: "2006-12",
     end: "2008-04",
     role: "Developer / CBDO",
-    brief: true,
+    brief: false,
     tasks: [
       {
         task: "Development of WMS and Traceability solutions for the pharmaceutical industry",

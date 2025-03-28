@@ -137,14 +137,14 @@
         <div class="row justify-content-between font-weight-bold text-white bg-primary">
           <div class="col-6">{{ $t("msg.xpTitle") }}</div>
           <div class="col-2">
-            <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
+            <!-- <div class="btn-group btn-group-toggle no-print" data-toggle="buttons">
               <label class="btn btn-secondary btn-sm" :class="{ active: xpbrief==false }">
                 <input v-model="xpbrief" type="radio" name="xpbrief" id="xpbrief" v-bind:value="false" /> {{ $t("msg.briefButton") }}
               </label>
               <label class="btn btn-secondary btn-sm" :class="{ active: xpbrief==true }">
                 <input v-model="xpbrief" type="radio" name="xpbrief" id="xpdetail" v-bind:value="true" /> {{ $t("msg.detailButton") }}
               </label>
-            </div>
+            </div> -->
           </div>
           <div class="col-1">&nbsp;</div>
         </div>
@@ -161,8 +161,8 @@
           <div v-show="xp.brief || xpbrief" class="row">
             <div class="col font-weight-bold">{{ xp.role }}</div>
           </div>
-          <div v-show="xp.brief || xpbrief" class="row" v-for="task in xp.tasks">
-            <div class="col">&checkmark; {{ task.task }}</div>
+          <div v-show="xp.brief || xpbrief" class="row" v-for="resp in xp.responsibilities">
+            <div class="col">&checkmark; {{ resp.resp }}</div>
           </div>
           <div v-show="xp.brief || xpbrief" class="row">&nbsp;</div>
         </div>
